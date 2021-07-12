@@ -115,6 +115,10 @@
     font-weight: 700;
 }
 
+.btn1:focus {
+    background-color: hsl(172, 67%, 45%);
+}
+
 .btn2 {
     border: none;
     border-radius: 6px;
@@ -129,6 +133,10 @@
     padding: 12px 35px;
     font-family: 'Space Mono', monospace;
     font-weight: 700;
+}
+
+.btn2:focus {
+    background-color: hsl(172, 67%, 45%);
 }
 
 .btn3 {
@@ -147,6 +155,10 @@
     font-weight: 700;
 }
 
+.btn3:focus {
+    background-color: hsl(172, 67%, 45%);
+}
+
 .btn4 {
     border: none;
     border-radius: 6px;
@@ -158,9 +170,13 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    padding: 12px 32px;
+    padding: 12px 30px;
     font-family: 'Space Mono', monospace;
     font-weight: 700;
+}
+
+.btn4:focus {
+    background-color: hsl(172, 67%, 45%);
 }
 
 .btn5 {
@@ -179,10 +195,14 @@
     font-weight: 700;
 }
 
+.btn5:focus {
+    background-color: hsl(172, 67%, 45%);
+}
+
 .btn6 {
     border: none;
     border-radius: 6px;
-    background-color: hsl(189, 41%, 97%);
+    background-color: hsl(185, 41%, 84%);
     color: hsl(184, 14%, 56%);
     text-align: center;
     text-decoration: none;
@@ -190,7 +210,11 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    padding: 12px 24px;
+    padding: 12px 22px;
     font-family: 'Space Mono', monospace;
     font-weight: 700;
+}
+
+.btn6:focus {
+    background-color: hsl(172, 67%, 45%);
 }
