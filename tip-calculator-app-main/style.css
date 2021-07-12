@@ -12,11 +12,16 @@
     width: 1440px;
 }
 
+#logo {
+    padding-left: 650px;
+    padding-top: 112px;
+}
+
 .main_container {
     background-color: white;
     border: 0px solid;
     border-radius: 24px;
-    margin-top: 225px;
+    margin-top: 55px;
     margin-bottom: 195px;
     margin-left: 260px;
     margin-right: 250px;
@@ -31,4 +36,11 @@
 
 .left_side {
     
+}
+
+.bill {
+    margin-left: -265px;
+    margin-top: 40px;
+    font-family: 'Space Mono', monospace;
+    color: hsl(184, 14%, 56%);
 }
