@@ -44,7 +44,7 @@
 }
 
 .bill {
-    margin-left: -265px;
+    margin-left: -305px;
     margin-top: 40px;
     font-family: 'Space Mono', monospace;
     color: hsl(184, 14%, 56%);
@@ -77,13 +77,120 @@
 }
 
 .sec_part {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     font-family: 'Space Mono', monospace;
 }
 
 .tip {
-    margin-left: -650px;
+    margin-left: -505px;
     color: hsl(184, 14%, 56%);
+}
+
+#tip {
+    margin-left: 200px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    width: 324px;
+
+}
+
+
+.btn1 {
+    border: none;
+    border-radius: 6px;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 12px 35px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+.btn2 {
+    border: none;
+    border-radius: 6px;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 12px 35px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+.btn3 {
+    border: none;
+    border-radius: 6px;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 12px 35px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+.btn4 {
+    border: none;
+    border-radius: 6px;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 12px 32px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+.btn5 {
+    border: none;
+    border-radius: 6px;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 12px 35px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+.btn6 {
+    border: none;
+    border-radius: 6px;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(184, 14%, 56%);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 12px 24px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
 }
