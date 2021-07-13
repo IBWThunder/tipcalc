@@ -51,29 +51,20 @@
 }
 
 .input_1 {
+    width: 323px;
+    height: 35px;
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    border-radius: 5px;
+    background-image: url(images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    text-align: right;
     font-family: 'Space Mono', monospace;
     font-size: 24px;
     font-weight: 700;
-    text-align: right;
     color: hsl(183, 100%, 15%);
-    background: url(images/icon-dollar.svg) left no-repeat;
-    border: 0;
-    padding: 7px 15px;
-    border: 1px solid #ccc;
-    position: relative;
     
-}
-
-.input_1 ~ .focus-bg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #ededed;
-    opacity: 0;
-    transition: 0.5s;
-    z-index: -1;
 }
 
 .sec_part {
@@ -99,7 +90,7 @@
 }
 
 
-.btn1 {
+.btn {
     border: none;
     border-radius: 6px;
     background-color: hsl(183, 100%, 15%);
@@ -115,47 +106,7 @@
     font-weight: 700;
 }
 
-.btn1:focus {
-    background-color: hsl(172, 67%, 45%);
-}
-
-.btn2 {
-    border: none;
-    border-radius: 6px;
-    background-color: hsl(183, 100%, 15%);
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    padding: 12px 35px;
-    font-family: 'Space Mono', monospace;
-    font-weight: 700;
-}
-
-.btn2:focus {
-    background-color: hsl(172, 67%, 45%);
-}
-
-.btn3 {
-    border: none;
-    border-radius: 6px;
-    background-color: hsl(183, 100%, 15%);
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    padding: 12px 35px;
-    font-family: 'Space Mono', monospace;
-    font-weight: 700;
-}
-
-.btn3:focus {
+.btn:focus {
     background-color: hsl(172, 67%, 45%);
 }
 
@@ -179,25 +130,6 @@
     background-color: hsl(172, 67%, 45%);
 }
 
-.btn5 {
-    border: none;
-    border-radius: 6px;
-    background-color: hsl(183, 100%, 15%);
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    padding: 12px 35px;
-    font-family: 'Space Mono', monospace;
-    font-weight: 700;
-}
-
-.btn5:focus {
-    background-color: hsl(172, 67%, 45%);
-}
 
 .btn6 {
     border: none;
@@ -217,4 +149,82 @@
 
 .btn6:focus {
     background-color: hsl(172, 67%, 45%);
+}
+
+.third_part {
+    padding-left: 205px;
+}
+
+.input_2 {
+    width: 323px;
+    height: 35px;
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    border-radius: 5px;
+    background-image: url(images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(183, 100%, 15%);
+}
+
+.right_side {
+    border: 0px solid;
+    border-radius: 20px;
+    background-color: hsl(183, 100%, 15%);
+    width: 420px;
+    height: 435px;
+    margin-left: -100px;
+    margin-right: -315px;
+    margin-top: 30px;
+}
+
+.tip_amount {
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+}
+
+.tip_amount h2 {
+    color: white;
+}
+
+.tip_amount p {
+    color: hsl(184, 14%, 56%);
+}
+
+.total {
+    padding-left: 40px;
+    padding-top: 15px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+}
+
+.total h2 {
+    color: white;
+}
+
+.total p {
+    color: hsl(184, 14%, 56%);
+}
+
+.reset {
+    padding-left: 40px;
+    padding-top: 65px;
+}
+
+.resetbtn {
+    border: 0px solid;
+    border-radius: 8px;
+    background-color: hsl(172, 67%, 45%);
+    width: 325px;
+    height: 50px;
+    color: hsl(183, 100%, 15%);
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
 }
